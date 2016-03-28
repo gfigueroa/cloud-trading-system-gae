@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.donate_need_area {
+	width:480px;
+	height:auto;	
+	min-height:500px;
+	margin:10px;
+	margin-top:5px;
+	background: rgba(255,255,255,1);
+background: -moz-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 13%, rgba(217,217,217,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(13%, rgba(246,246,246,1)), color-stop(100%, rgba(217,217,217,1)));
+background: -webkit-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 13%, rgba(217,217,217,1) 100%);
+background: -o-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 13%, rgba(217,217,217,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 13%, rgba(217,217,217,1) 100%);
+background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 13%, rgba(217,217,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9d9d9', GradientType=1 );
+	box-shadow:0px 0px 1px #666666;
+	border-radius: 3px;
+}
+
+div.donate_need_title {
+	width: 480px;
+	height: 50px;
+	line-height: 50px;
+	color: #FFFFFF;
+	font: "微軟正黑體";
+	font-size: 26px;
+	text-align: center;
+	background: rgba(130,200,250,1);
+	background: -moz-linear-gradient(left, rgba(130,200,250,1) 0%, rgba(124,198,252,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(130,200,250,1)), color-stop(100%, rgba(124,198,252,1)));
+	background: -webkit-linear-gradient(left, rgba(130,200,250,1) 0%, rgba(124,198,252,1) 100%);
+	background: -o-linear-gradient(left, rgba(130,200,250,1) 0%, rgba(124,198,252,1) 100%);
+	background: -ms-linear-gradient(left, rgba(130,200,250,1) 0%, rgba(124,198,252,1) 100%);
+	background: linear-gradient(to right, rgba(130,200,250,1) 0%, rgba(124,198,252,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82c8fa', endColorstr='#7cc6fc', GradientType=1 );
+	margin-bottom: 10px;
+	border-radius: 5px;
+	text-shadow: 1px 1px 0px #ECECEC;
+}
+div.TypeTitle {
+	width:97%;
+	line-height:40px;
+	cursor:pointer;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	font-weight:800;
+}
+div.TypeContent {
+	width:98%;
+	margin-left:auto;
+	margin-right:auto;
+}
+div#inputMemberId {
+	background:rgba(255,255,255,0.9);
+	width:300px;
+	height:200px;
+	z-index:5;
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin-top:-100px;
+	margin-left:-150px;
+	box-shadow:1px 1px 1px #CCCCCC;
+	border-radius: 10px;
+	display:none;
+}

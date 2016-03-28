@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes autoGenerate="true">
+
+    <datastore-index kind="District" ancestor="true" source="manual">
+        <property name="districts_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="Village" ancestor="true" source="manual">
+        <property name="villages_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="ItemType" ancestor="false" source="manual">
+        <property name="itemCategory" direction="asc"/>
+        <property name="itemTypeName" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="Item" ancestor="true" source="manual">
+        <property name="items_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="Item" ancestor="false" source="manual">
+        <property name="itemType" direction="asc"/>
+        <property name="itemName" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="Service" ancestor="true" source="manual">
+        <property name="services_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+    
+        <datastore-index kind="Service" ancestor="false" source="manual">
+        <property name="serviceType" direction="asc"/>
+        <property name="serviceDescription" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="ItemRequest" ancestor="true" source="manual">
+        <property name="itemRequests_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="ItemRequest" ancestor="false" source="manual">
+        <property name="itemType" direction="asc"/>
+        <property name="itemRequestDescription" direction="asc"/>
+    </datastore-index>
+    
+    <datastore-index kind="ServiceRequest" ancestor="true" source="manual">
+        <property name="serviceRequests_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+    
+        <datastore-index kind="ServiceRequest" ancestor="false" source="manual">
+        <property name="serviceType" direction="asc"/>
+        <property name="serviceRequestDescription" direction="asc"/>
+    </datastore-index>
+    
+</datastore-indexes>

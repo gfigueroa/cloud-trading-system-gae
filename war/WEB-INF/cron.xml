@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+    
+  <cron>
+    <url>/cron?action=testing</url>
+    <description>Cron testing</description>
+    <schedule>every 24 hours</schedule>
+    <timezone>Asia/Taipei</timezone>
+  </cron>
+  
+</cronentries>

@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#header {
+	height: 312px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #1b1b1b;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #999;
+	
+}
+#header_logo {
+	background-image: url(../images/Header_FoutainOfLove.jpg);
+	background-repeat: no-repeat;
+	height: 312px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header_2 {
+	background-color: #323232;
+	height: 40px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 1px;
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #404040;
+	border-bottom-color: #1c1c1c;
+}
+.header_font {
+	font-family: "微軟正黑體", "新細明體", Arial;
+	font-size: 22px;
+	color: #CCC;
+	text-decoration: none;
+}
+#home_link {
+	width:95px;
+	cursor:pointer;
+	
+}
