@@ -8,6 +8,8 @@ Fountain of Love is a cloud platform for exchanging/trading products and service
 The system is developed for Google App Engine using Java.
 It has a basic web interface and a web service API.
 
+Can be accessed at: [link](http://fountain-of-love.appspot.com/)
+
 ### Related Projects
 
 ## Acknowledgements
